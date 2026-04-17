@@ -36,6 +36,9 @@
                         <provider>MC</provider>
                         <environment>Sandbox</environment>
                         <target>Cloudhub-US-East-2</target>
+						<connectedAppClientId>${client.id}</connectedAppClientId>
+  						<connectedAppClientSecret>${client.secret}</connectedAppClientSecret>
+  						<connectedAppGrantType>client_credentials</connectedAppGrantType>
                         <server>Repository</server>
                         <applicationName>${project.artifactId}</applicationName>
                         <releaseChannel>NONE</releaseChannel>
